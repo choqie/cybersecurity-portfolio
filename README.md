@@ -1,90 +1,180 @@
-# Sharon Jepkoech
+# Cybersecurity Technical Portfolio
 
-### MSc Cybersecurity Graduate | Cybersecurity & Machine Learning Enthusiast
+Welcome to my cybersecurity technical portfolio.
 
-Welcome to my cybersecurity portfolio!
+This repository documents my academic cybersecurity research, practical security exercises, technical investigations and project development.
 
-I am an MSc Cybersecurity graduate from Anglia Ruskin University with an academic background in Artificial Intelligence and Applied Statistics. My interests include cybersecurity operations, penetration testing, network security, machine learning for cybersecurity, threat detection and Governance, Risk & Compliance (GRC).
+The focus is on demonstrating technical understanding through documented work, methodologies, tools, analysis and evidence.
 
-I am particularly interested in applying machine learning techniques to identify, analyse and detect evolving cyber threats.
+## 📂 Portfolio Areas
 
-## 🎓 Education
+### 1. AI & Machine Learning for Cybersecurity
 
-**MSc Cybersecurity**
-Anglia Ruskin University | 2025–2026
+**Featured Academic Research**
 
-**BSc Applied Statistics with Computing**
-Rongo University | 2015–2019
+**Protocol-Specific Intrusion Detection System Using Transfer Learning**
 
-## 🔬 Featured Academic Project
+My MSc dissertation investigated machine-learning approaches for detecting malicious activity within Electric Vehicle (EV) charging infrastructure using the CICEVE 2024 dataset.
 
-### Protocol-Specific Intrusion Detection System Using Transfer Learning
+**Technologies and methodologies:**
+- Python
+- Pandas and Scikit-learn
+- Data preprocessing and feature engineering
+- Min-Max scaling
+- Synthetic Minority Over-sampling Technique (SMOTE)
+- Multi-Layer Perceptron (MLP)
+- Adaptive Random Forest (ARF)
+- ADWIN concept-drift detection
+- Gradient Boosting
+- Hybrid and online learning approaches
 
-My MSc dissertation focused on developing an intrusion detection approach for Electric Vehicle (EV) charging infrastructure using the CICEVE 2024 dataset.
+**Evaluation:** Accuracy, precision, recall, F1-score, macro averages and weighted averages.
 
-Key technologies and methodologies:
+**Project status:** MSc dissertation completed.
 
-* Python and Machine Learning
-* Multilayer Perceptron (MLP)
-* Adaptive Random Forest (ARF)
-* ADWIN concept drift detection
-* SMOTE for handling class imbalance
-* Online and hybrid learning
-* Intrusion detection and threat classification
+### 2. Security Operations Centre (SOC) & Threat Intelligence
 
-The project explored how machine learning models can identify malicious network activity and adapt to evolving cyber threats.
+This section will document practical work involving security monitoring, threat investigation and incident analysis.
 
-## 💻 Technical Interests & Skills
+Areas of development:
+- Security event investigation
+- Indicators of Compromise (IOCs)
+- Threat intelligence analysis
+- MITRE ATT&CK mapping
+- Security incident documentation
+- Detection and investigation workflows
 
-**Cybersecurity**
+**Tools and platforms being explored:**
+- Microsoft Sentinel
+- Microsoft Defender
+- Kusto Query Language (KQL)
+- AlienVault OTX
+- SOC Radar
+- Jira Service Management
 
-* Intrusion Detection Systems (IDS)
-* Security Operations (SOC)
-* Cyber Threat Intelligence
-* Penetration Testing
-* Vulnerability Assessment
-* Network Security
+**Project status:** Practical exercises and investigations will be added as completed.
 
-**Artificial Intelligence & Machine Learning**
+### 3. Identity & Access Management (IAM)
 
-* Python
-* Machine Learning
-* Deep Learning
-* Transfer Learning
-* Data Analysis
-* Model Evaluation
+This section will document identity administration, access control and identity security exercises.
 
-**Networking & Systems**
+Areas of development:
+- Active Directory administration
+- Microsoft Entra ID
+- Role-Based Access Control (RBAC)
+- Joiner, Mover and Leaver (JML) processes
+- Group Policy and security groups
+- Least privilege
+- Access reviews
+- Identity lifecycle management
 
-* Networking Fundamentals
-* Linux
-* Kali Linux
-* Network Traffic Analysis
+**Project status:** Practical exercises will be documented as completed.
 
-**Governance, Risk & Compliance**
+### 4. Governance, Risk & Compliance (GRC)
 
-* Information Security
-* Security Risk Assessment
-* Governance, Risk & Compliance (GRC)
-* Security Controls
+This section will demonstrate the application of cybersecurity governance frameworks, risk assessment and security controls.
 
-## 🚀 Current Learning Goals
+Areas of development:
+- ISO/IEC 27001
+- NIST Cybersecurity Framework
+- Information security risk assessments
+- Risk registers and risk treatment
+- Security policies and procedures
+- Security control assessments
+- Audit evidence
+- Compliance and remediation tracking
 
-I am continuously developing my practical cybersecurity capabilities through:
+**Project status:** Practical case studies and assessments will be added as completed.
 
-* Ethical hacking and penetration testing laboratories.
-* Linux and network security.
-* SOC operations and incident response.
-* MITRE ATT&CK and cyber threat intelligence.
-* Security risk management and GRC.
+### 5. Network Security & Traffic Analysis
 
-## 📌 Portfolio Projects
+This section will contain network security exercises and investigations.
 
-This repository will showcase my academic work, practical cybersecurity laboratories, technical experiments and ongoing learning projects.
+Areas of development:
+- Networking fundamentals
+- Network traffic analysis
+- Packet inspection
+- Protocol analysis
+- Network security concepts
+- Linux environments
 
-More projects coming soon!
+**Tools:** Wireshark and Kali Linux.
 
-## 🤝 Connect With Me
+**Project status:** Practical labs will be documented as completed.
 
-* LinkedIn: https://www.linkedin.com/in/sharon-jepkoech-b760561a1
-* GitHub: https://github.com/choqie
+### 6. Penetration Testing & Vulnerability Assessment
+
+This section will document authorised security testing and controlled laboratory exercises.
+
+Areas of development:
+- Reconnaissance
+- Vulnerability identification
+- Security testing methodologies
+- Linux and Kali Linux
+- Vulnerability assessment
+- Technical findings and remediation recommendations
+
+**Project status:** Exercises will be documented only after completion in authorised environments.
+
+---
+
+## 💼 Professional Practical Work — Halisans Technologies
+
+My paid professional role at Halisans Technologies began in November 2026.
+
+My practical development covers three cybersecurity domains:
+
+- Identity & Access Management (IAM)
+- Security Operations and Threat Intelligence (SOC)
+- Governance, Risk & Compliance (GRC)
+
+As I complete professional assignments and practical exercises, relevant work will be documented here where publication is authorised.
+
+Professional assignments will be distinguished from simulated scenarios, independent exercises and academic research.
+
+---
+
+## 🧪 Practical Lab Documentation Standards
+
+Each completed project or exercise will aim to include:
+
+1. **Objective:** What the exercise investigates or demonstrates.
+2. **Scope:** The environment and boundaries of the exercise.
+3. **Tools:** Technologies and platforms used.
+4. **Methodology:** Steps followed and technical approach.
+5. **Evidence:** Appropriate screenshots, logs, commands or configurations.
+6. **Findings:** Observations and results.
+7. **Recommendations:** Relevant security improvements.
+8. **Lessons Learned:** Technical knowledge gained.
+
+Only completed work will be presented as completed. Planned exercises will be identified as planned or in progress.
+
+## 🔐 Confidentiality & Responsible Use Disclaimer
+
+This repository is an independently maintained personal technical portfolio. It is not an official publication of Halisans Technologies or any other employer.
+
+- No confidential company information, proprietary documentation, customer data, employee information, credentials or sensitive internal configurations will intentionally be published.
+- Screenshots, logs and other evidence will be shared only where authorised and appropriately sanitised.
+- Examples may use simulated, public or anonymised information and will be labelled accordingly.
+- References to employers identify professional experience and do not imply company endorsement.
+- All security testing is conducted only in authorised environments.
+- Technical explanations and opinions are my own unless otherwise stated.
+
+This portfolio is intended to demonstrate my own academic research, practical development and technical work without disclosing confidential organisational information.
+
+## 🎯 Portfolio Objectives
+
+My objectives are to:
+
+- Develop practical cybersecurity investigation skills.
+- Build stronger SOC and threat intelligence capabilities.
+- Develop IAM administration and access governance skills.
+- Apply recognised security frameworks and risk management principles.
+- Strengthen network security and technical analysis capabilities.
+- Explore the application of AI and machine learning to cybersecurity.
+- Maintain clear, professional documentation of completed technical work.
+
+## 📬 Connect
+
+- **GitHub:** https://github.com/choqie
+- **LinkedIn:** https://www.linkedin.com/in/sharon-jepkoech-b760561a1
