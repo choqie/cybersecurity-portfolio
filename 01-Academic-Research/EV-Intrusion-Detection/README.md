@@ -102,7 +102,21 @@ The implementation evaluates model performance using:
 - Online performance tracking
 - Concept-drift monitoring
 
-Actual numerical results and model comparisons will be documented using the dissertation's recorded outputs.
+### 6.1 Offline Baseline Model: Multi-Layer Perceptron (MLP)
+
+The MLP model was evaluated on 254,977 records from the CICEVE 2024 dataset.
+
+**Performance Results:**
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 96% |
+| Macro Precision | 90.25% |
+| Macro Recall | 89.83% |
+| Macro F1-score | 90.00% |
+| Weighted Precision | 95.89% |
+| Weighted Recall | 95.91% |
+| Weighted F1-score | 95.88% 
 
 ## 7. Key Cybersecurity Concepts
 
