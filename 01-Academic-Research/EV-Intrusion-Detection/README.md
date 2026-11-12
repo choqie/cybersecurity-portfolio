@@ -101,6 +101,7 @@ The implementation evaluates model performance using:
 - Confusion matrices
 - Online performance tracking
 - Concept-drift monitoring
+  
 
 ### 6.1 Offline Baseline Model: Multi-Layer Perceptron (MLP)
 
@@ -118,6 +119,71 @@ The MLP model was evaluated on 254,977 records from the CICEVE 2024 dataset.
 | Weighted Recall | 95.91% |
 | Weighted F1-score | 95.88% 
 
+### 6.2 Offline Baseline Model: Gradient Boosting
+
+Gradient Boosting was evaluated as an additional offline baseline model using the CICEVE 2024 dataset, containing 254,977 records.
+
+**Performance Results:**
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 100% (rounded) |
+| Macro Precision | 99.87% |
+| Macro Recall | 99.91% |
+| Macro F1-score | 99.89% |
+| Weighted Precision | 99.95% |
+| Weighted Recall | 99.95% |
+| Weighted F1-score | 99.95% |
+### 6.3 Online Learning Model: Adaptive Random Forest (ARF) with ADWIN
+
+The Adaptive Random Forest (ARF) model was implemented using online learning, with ADWIN (Adaptive Windowing) monitoring prediction errors and detecting concept drift. The model was evaluated on 254,977 records from the CICEVE 2024 dataset.
+
+**Performance Results:**
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 98% (rounded) |
+| Macro Precision | 96.88% |
+| Macro Recall | 95.02% |
+| Macro F1-score | 95.63% |
+| Weighted Precision | 98.42% |
+| Weighted Recall | 98.25% |
+| Weighted F1-score | 98.21% |
+
+**Concept Drift Detection:**
+
+ADWIN detected 2 concept drift events during online evaluation.
+
+- Drift Event 1: Instance 181056; estimated error 0.0174.
+- Drift Event 2: Instance 190784; estimated error 0.0192.
+
+### 6.4 Hybrid Offline-Online Model: Weighted Fusion
+
+A hybrid model was developed by combining the offline Gradient Boosting model with the online Adaptive Random Forest model.
+
+The fusion mechanism used the following weights:
+
+- Offline Gradient Boosting model: 60%.
+- Online Adaptive Random Forest model: 40%.
+
+The hybrid model was evaluated on 254,977 records from the CICEVE 2024 dataset.
+
+**Performance Results:**
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 100% (rounded) |
+| Macro Precision | 99.91% |
+| Macro Recall | 99.93% |
+| Macro F1-score | 99.92% |
+| Weighted Precision | 99.96% |
+| Weighted Recall | 99.96% |
+| Weighted F1-score | 99.96% |
+
+**Concept Drift Detection:**
+
+- Total drift events detected: 0.
+
 ## 7. Key Cybersecurity Concepts
 
 - Intrusion Detection Systems (IDS)
@@ -133,7 +199,7 @@ The MLP model was evaluated on 254,977 records from the CICEVE 2024 dataset.
 ## 8. Project Status
 
 **Status:** MSc dissertation completed.  
-**Final dissertation grade:** 68%.
+
 
 This project documents the implementation and methodology developed during my academic research.
 
