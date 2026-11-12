@@ -12,7 +12,8 @@ The focus is on demonstrating technical understanding through documented work, m
 
 **Featured Academic Research**
 
-**Protocol-Specific Intrusion Detection System Using Transfer Learning**
+**Intrusion Detection System for Electric Vehicle Charging Infrastructure using Machine Learning and Hybrid Online Learning
+**
 
 My MSc dissertation investigated machine-learning approaches for detecting malicious activity within Electric Vehicle (EV) charging infrastructure using the CICEVE 2024 dataset.
 
